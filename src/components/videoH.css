@@ -1,0 +1,25 @@
+.card {
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+    
+    
+}
+
+.card-body {
+    padding-left: 0px;
+    padding: 10px;
+    background-color: rgb(31, 31, 31);
+    
+}
+.card-video {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+}
+
+iframe {
+   height: 100%;
+   width: 100%;
+   
+}

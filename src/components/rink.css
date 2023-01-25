@@ -1,0 +1,25 @@
+.nhl-scatterimage {
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;    
+}
+.cordinates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.table-mod {
+    padding-top: 30px;
+}
+.table-back {
+    background-color: rgb(255, 255, 255);
+    
+}
+.svg-container {
+    background-color: rgb(26, 91, 148);
+    border-radius: 200px;
+}
+.main-svg {
+    border-radius: 100px;
+}

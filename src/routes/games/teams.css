@@ -1,0 +1,86 @@
+.vs {
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 50px; /* Need a specific value to work */
+    color: rgb(129, 13, 243);
+    padding-top: 5%;
+}
+.arrow {
+    position: absolute; 
+    left: 5%; 
+    right: 0;  
+    width: 50px; /* Need a specific value to work */
+    padding-top: 10%;
+    color: white;
+}
+.arrow i {
+    font-size: 30px;
+    cursor: pointer;
+}
+.arrow i :hover {
+    color: aqua;
+}
+
+.vs h3 {
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+
+.main-teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    
+}
+.main-teams p {
+    margin-bottom: 0.2px;
+    
+}
+
+.home-goalie {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.away-goalie {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.home-team {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    color: white;
+}
+.score {
+    padding: 2%;
+    font-size: 28px;
+}
+.away-team {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: auto;
+    background-color:rgb(41, 36, 39)
+}
+.home-im {
+    padding-top: 5%;
+}
+.away-im {
+    padding-top: 5%;
+}
+.away-details p {
+    font-size: 17px;
+    font-weight: 500;
+}
+.home-details p {
+    font-size: 17px;
+    font-weight: 500;
+
+}
