@@ -1,2 +1,3 @@
 # NHL FRONT END 2 ...
 
+Depence on this project [https://github.com/karia19/NHL_AND_AHL/tree/main/react_nhl]
