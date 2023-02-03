@@ -52,14 +52,15 @@
         <p class="display-6 text-left" style="margin-top: 50px; margin-bottom: 40px; color: white; max-width: 800px">
             Game goals And video of goals. There is all so calculated expected goals value in precentage. Distance show distance from goals.</p>
 
-        <div class="row row-cols-1 row-cols-3">
+        <div class="row">
             {#each collectData as { title ,  description, xgs, distance, angle, playbacks}}
-                <div class="col">
+                <div class="col-sm-4">
                 <div class="card">
                     <div class="card-video">
                         <!-- svelte-ignore a11y-missing-attribute -->
-                        <iframe  class="" src={playbacks[3]['url']}></iframe>
-
+                        <!-- svelte-ignore a11y-media-has-caption -->
+                        <video allowfullscreen  controls class="" src={playbacks[3]['url']}></video>
+                    
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">{title}</h5>
@@ -79,9 +80,18 @@
 </main>
 
 <style>
+    /*
     iframe {
         height: 100%;
         width: 100%;
+    }
+    */
+    video {
+        height: 100%;
+        width: 100%;
+    }
+    .card-video {
+        background-color: black;
     }
     
 
