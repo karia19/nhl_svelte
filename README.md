@@ -33,15 +33,8 @@ These variables contribute to predicting the expected goal probability based on 
 
 ## Setup and Installation
 
-1. Clone the repository.
-2. Install the necessary dependencies for the frontend.
-3. Set up the Strapi backend and configure the necessary models and endpoints.
-4. Ensure that Python is installed on your system.
-5. Install the required Python libraries for xG calculations.
-6. Configure the necessary connections between the frontend, backend (Strapi), and Python scripts.
-7. Run the application locally.
-
-Please refer to the individual documentation for detailed instructions on setting up the frontend, backend, and xG calculations.
+This is not for publick use some data is is missing...
+Web sites are coming soon were you can use this app ....
 
 
 ## Developing
