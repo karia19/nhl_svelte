@@ -14,6 +14,7 @@ This is an NHL (National Hockey League) application that provides information ab
 
 - Frontend: Svelte
 - Backend: Strapi (headless CMS)
+- Download game data use this 
 - Xgs calculations is in this poroject https://github.com/karia19/nhl_xgs
 - Machine Learning Algorithm: GradientBoostingClassifier
 
