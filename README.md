@@ -12,7 +12,7 @@ This is an NHL (National Hockey League) application that provides information ab
 
 ## Technologies Used
 
-- Frontend: (List frontend technologies/frameworks used)
+- Frontend: Svelte
 - Backend: Strapi (headless CMS)
 - xG Calculation: Python
 - Machine Learning Algorithm: GradientBoostingClassifier
