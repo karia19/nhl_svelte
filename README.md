@@ -34,8 +34,8 @@ These variables contribute to predicting the expected goal probability based on 
 
 ## Setup and Installation
 
-This is not for publick use some data is is missing...
-Web sites are coming soon were you can use this app ....
+- All data is not for public
+- Web site is coming soon ....
 
 
 ## Developing
