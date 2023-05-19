@@ -1,4 +1,4 @@
-# NHL App - Season 2022-2023
+# NHL App 
 
 This is an NHL (National Hockey League) application that provides information about the games and results of the 2022-2023 season. Users can search for games by team and view all the games played by a specific team. The app also includes detailed game statistics, including Expected Goals (xG) and videos of xG goals.
 
@@ -14,8 +14,8 @@ This is an NHL (National Hockey League) application that provides information ab
 
 - Frontend: Svelte
 - Backend: Strapi (headless CMS)
-- Download game data use this https://github.com/karia19/nhl_dataloader
-- Xgs calculations is in this poroject https://github.com/karia19/nhl_xgs
+- Download game data use [this](https://github.com/karia19/nhl_dataloader)
+- Xgs calculations is in [this poroject](https://github.com/karia19/nhl_xgs)
 - Machine Learning Algorithm: GradientBoostingClassifier
 
 ## xG Calculation
