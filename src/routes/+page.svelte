@@ -11,6 +11,10 @@
         let name = ''
         let useSearch = false
 
+        
+        
+        
+
       
         const searchFrom = async () => {
             console.log("haloo", name)
@@ -35,6 +39,15 @@
         let nhlGames = []
         onMount(async () => {
             try {
+
+                let userLoggedIn = false;
+                window.onLoadCallback = () => {
+                    userLoggedIn = gapi.auth2.getAuthInstance().isSignedIn.get();
+                    console.log("is auth", userLoggedIn)
+                    if (userLoggedIn) {  
+                    // Handle login
+                        }
+                }
                 const response = await fetch("http://0.0.0.0:1337/api/v1/nhl/season/stats/50/2022-2023")
               
                 const data = await response.json();
@@ -60,9 +73,14 @@
     
 
 </script>
+<svelte:head>
+    <script src="https://apis.google.com/js/platform.js?onload=onLoadCallback" async defer></script>
+</svelte:head>
+
 
 <Navbar />
 <div class="main-page">
+
 <div class="container">
     <br>
     <div class="input-group mb-3">

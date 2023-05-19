@@ -46,7 +46,7 @@
 <div style="padding-top: 40px;">
   <div class="text-left">
     <p class="display-6" style="margin-top: 30px; margin-bottom: 40px; color: #19ffa3;">
-        Season 2022-2023. Shows 50's last games from nhl. Use search for more games to ceraint team.
+        Season 2022-2023. Shows 50's last games from nhl. Use search for more games to certain team.
         More details shows data from games including xgs and videos of goals.</p>
   </div>
   {#each gamee as {homeTeam, awayTeam, homeScore, awayScore, day, homeShots, awayShots

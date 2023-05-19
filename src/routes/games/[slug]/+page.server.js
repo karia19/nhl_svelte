@@ -12,9 +12,11 @@ import axios from 'axios';
 
 /** @type {import('./$types').PageServerLoad} */
 
-export async function load({ params }) {
+export async function load({ params, parent }) {
   
-  //console.log("hello",params.slug)
+  await parent()
+  console.log("hello fetch data to fron tend...")
+  
   const resBackend = await axios.get(`http://0.0.0.0:1337/api/v1/nhl/xgs/${params.slug}`)  
   const gameDetails = await axios.get(`http://0.0.0.0:1337/api/v1/nhl/season/onestats/${params.slug}`)
   const videosForGames = await axios.get(`http://statsapi.web.nhl.com/api/v1/game/${params.slug}/content`)

@@ -15,6 +15,10 @@
 
 </script>
 
+<main>
+    <slot />
+</main>
+
 
 <Navbar />
 <main style="background-color: rgb(31, 26, 35)">
@@ -48,7 +52,7 @@
                 
                 <h4>Goalie: {data.moreData['homeGoaliName']}</h4>
 
-                <h5>Time on Ice: {data.moreData['homeGoalie']['timeOnIce']}</h5>
+                <!-- <h5>Time on Ice: {data.moreData['homeGoalie']['timeOnIce']}</h5> -->
                 {#if data.moreData['homeGoalie']['savePercentage'] == undefined}
                     <h5>Save: no data ...</h5>
                     <h5>Even Save: no data ....</h5>
@@ -87,7 +91,7 @@
                 <h4>Goalie: {data.moreData['awayGoaliName']}</h4>
                 
                 
-                <h5>Time on Ice: {data.moreData['awayGoalie']['timeOnIce']}</h5>
+                <!-- <h5>Time on Ice: {data.moreData['awayGoalie']['timeOnIce']}</h5> -->
                 {#if data.moreData['awayGoalie']['savePercentage'] == undefined}
                     <h5>Save: no data ....</h5>
                     <h5>Even Save: no data ....</h5>
