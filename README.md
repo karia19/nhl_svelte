@@ -43,27 +43,6 @@ These variables contribute to predicting the expected goal probability based on 
 
 Please refer to the individual documentation for detailed instructions on setting up the frontend, backend, and xG calculations.
 
-## Contributing
-
-Contributions to the NHL App are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request to this repository.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
-
-
-# NHL FRONT XGS
-
-Show games results and more details on games including xgs and missed high goal opportunes. Also show goalie stats by game.
-Goals are show by video and golas xgs and distance in golas (feet not meters).
-
-Depence on this project https://github.com/karia19/NHL_AND_AHL/tree/main/react_nhl . Same layouaout only made by svelte.
-
-All data is coming from Strapi backend api. There is golas, ods and all game details is loaded from nhl api (saveprecents, hits .... ) to strapi.
-
-Xgs calculation is in this poroject https://github.com/karia19/nhl_xgs
-
 
 ## Developing
 
@@ -75,3 +54,13 @@ npm run dev
 # or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
+
+## Contributing
+
+Contributions to the NHL App are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request to this repository.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+
